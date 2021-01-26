@@ -7,4 +7,4 @@ mix
   .sass('resources/sass/styles.scss', 'css').copy(
         'node_modules/@fortawesome/fontawesome-free/webfonts',
         'public/webfonts'
-    ).setPublicPath('public');
+    ).setPublicPath('public/assets');

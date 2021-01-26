@@ -1,9 +1,16 @@
 
-let navbar = new Vue({
-  el:"#navbar-top",
-  data:{
+let navbar = {
+  data(){
+    return {
+      logo:{
+        logoSmall:""
+      },
+      navbarItems:{
+        
+      }
+    }
 
   }
-})
+}
 
 Vue.createApp(navbar).mount('#navbar-top');

@@ -7,10 +7,16 @@
   \*****************************/
 /***/ (() => {
 
-var navbar = new Vue({
-  el: "#navbar-top",
-  data: {}
-});
+var navbar = {
+  data: function data() {
+    return {
+      logo: {
+        logoSmall: ""
+      },
+      navbarItems: {}
+    };
+  }
+};
 Vue.createApp(navbar).mount('#navbar-top');
 
 /***/ }),
