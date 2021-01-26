@@ -1,16 +1,15 @@
+import Vue from 'vue';
 
-let navbar = {
-  data(){
-    return {
+
+let navbar = new Vue({
+  el:"#navbar-top",
+  data: {
       logo:{
-        logoSmall:""
+        logoSmall:"public/assets/img/navbar/logo-small.svg"
       },
       navbarItems:{
         
       }
     }
 
-  }
-}
-
-Vue.createApp(navbar).mount('#navbar-top');
+  });
