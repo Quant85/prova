@@ -5,3 +5,5 @@ let navbar = new Vue({
 
   }
 })
+
+Vue.createApp(navbar).mount('#navbar-top');
